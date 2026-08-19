@@ -366,6 +366,20 @@ http://127.0.0.1:8000
 
 ---
 
+## Solución de problemas
+
+Si Laravel muestra el error:
+
+"Please provide a valid cache path."
+
+verificar que exista:
+
+storage/framework/views
+
+Si no existe, crear el directorio y ejecutar:
+
+php artisan optimize:clear
+
 # 15. Acceso al sistema web
 
 Al acceder a:
