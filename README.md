@@ -165,7 +165,7 @@ artisan
 
 # 6. Instalación
 
-## 6.1. Clonar el repositorio
+## 6.1. Clonar o Descargar el repositorio
 
 ```bash
 git clone https://github.com/USUARIO/REPOSITORIO.git
