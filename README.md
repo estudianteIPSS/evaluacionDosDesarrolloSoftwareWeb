@@ -378,7 +378,9 @@ storage/framework/views
 
 Si no existe, crear el directorio y ejecutar:
 
+```bash
 php artisan optimize:clear
+```
 
 # 15. Acceso al sistema web
 
