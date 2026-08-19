@@ -11,6 +11,9 @@
             <thead class="bg-gray-50">
                 <tr>
                     <th class="px-6 py-3 text-left text-xs font-semibold uppercase tracking-wide text-gray-500">
+                        ID
+                    </th>
+                    <th class="px-6 py-3 text-left text-xs font-semibold uppercase tracking-wide text-gray-500">
                         Proyecto
                     </th>
 
@@ -41,6 +44,10 @@
                 @forelse($projects as $project)
 
                     <tr class="transition hover:bg-gray-50">
+
+                        <td class="whitespace-nowrap px-6 py-4 text-sm text-gray-500">
+                            #{{ $project->id }}
+                        </td>
 
                         <td class="whitespace-nowrap px-6 py-4">
                             <a

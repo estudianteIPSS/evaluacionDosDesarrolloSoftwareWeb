@@ -54,7 +54,7 @@
                 </p>
 
                 <div class="mt-2">
-                    <x-atoms.badge :status="$project->estado" />
+                    {{ $project->estado }}
                 </div>
             </div>
 
