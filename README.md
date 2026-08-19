@@ -348,12 +348,6 @@ npm run build
 
 Esto compila los recursos utilizados por Vite y Tailwind CSS.
 
-Durante el desarrollo también puede utilizarse:
-
-```bash
-npm run dev
-```
-
 ---
 
 # 14. Ejecutar la aplicación
@@ -361,7 +355,7 @@ npm run dev
 Iniciar el servidor de desarrollo de Laravel:
 
 ```bash
-php artisan serve
+composer run dev
 ```
 
 La aplicación estará disponible normalmente en:
