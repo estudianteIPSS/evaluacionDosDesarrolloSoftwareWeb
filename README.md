@@ -168,11 +168,9 @@ artisan
 ## 6.1. Clonar o Descargar el repositorio
 
 ```bash
-git clone https://github.com/USUARIO/REPOSITORIO.git
-cd REPOSITORIO
+git clone https://github.com/estudianteIPSS/evaluacionDosDesarrolloSoftwareWeb.git
+cd "carpeta del repositorio"
 ```
-
-Reemplazar `USUARIO/REPOSITORIO` por la dirección real del repositorio.
 
 ---
 
